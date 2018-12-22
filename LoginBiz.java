@@ -18,4 +18,6 @@ public interface LoginBiz {
   LoginResponseDTO login(LoginRequestDTO requestDTO);
   // 忘记密码
   ForgotPasswordUrlResponseDTO ForgotPasswordUrl(ForgotPasswordUrlRequestDTO requestDTO);
+
+  //我的修改
 }
